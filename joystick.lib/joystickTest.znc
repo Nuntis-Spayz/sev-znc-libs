@@ -1,0 +1,45 @@
+make nex "joystickTest.nex";
+
+include "joystick.znc";
+
+int a;
+byte c=48;
+
+void putBin(int a)
+{
+ for(int b=0x4000;b!=0;)
+ {
+   if((b & a)==b) {
+     putc(49);
+   } else {
+     putc(48);
+   }
+   b=b>>1;
+ }
+}
+
+void main() {
+
+  initJoystick();
+
+  for(;;) {
+    putc(22);
+    putc(0);
+    putc(0);
+    
+    puts("J1 : ");
+    a = readJoy1();
+    putBin(a);    
+    putc(13);
+    
+    puts("J2 : ");
+    a = readJoy2();
+    putBin(a);
+    putc(13);
+    
+    c=c^1;
+    putc(c);
+  }  
+}
+
+main();

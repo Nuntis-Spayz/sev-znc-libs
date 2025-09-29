@@ -1,0 +1,33 @@
+make nex "versionTest.nex";
+
+include "version.znc";
+
+void main() {
+
+  int a= exdosVersion();
+  
+  puts("ExDOS Version : ");
+  putc(48 + (a>>8));
+  puts(".");
+  putc(48 + ((a>>4) & 15));
+  puts(".");
+  putc(48 + (a & 15));
+  
+  putc(13);
+  
+  a=coreVersion();
+  
+  puts("Core Version  : ");
+  putc(48 + ((a>>12) & 15));
+  puts(".");
+  putc(48 + ((a>>8) & 15));
+  puts(".");
+  putc(48 + ((a>>4) & 15));
+  puts(".");
+  putc(48 + (a & 15));
+  
+  for(;;) {
+  }  
+}
+
+main();

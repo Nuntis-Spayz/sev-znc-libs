@@ -1,0 +1,25 @@
+// joystick.znc
+// ------------------------
+// v 0.0.1      23-Sep-2025
+// freeware by nuntis/spayz
+// ------------------------
+#ifndef JOYSTICK__
+const byte JOYSTICK__=0x01;
+
+// 
+void initJoystick() {
+  nextreg(0x05, 0b01101011);
+}
+
+// read kempston joystick 1
+int readJoy1() {
+  int a = in(31);
+  return (a & 0xFF) | ((readreg(178) & 0x0F)<<8) ;
+}
+
+// read kempston joystick 2
+int readJoy2() {
+  int a = in(55);
+  return (a & 0xFF) | ((readreg(178) & 0xF0)<<4);
+}
+#endif
