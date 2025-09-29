@@ -1,0 +1,28 @@
+// mouse.znc
+// ------------------------
+// v 0.0.1      29-Sep-2025
+// freeware by nuntis/spayz
+// ------------------------
+#ifndef MOUSE__
+const byte MOUSE__=0x01;
+
+byte readMouseX() {
+  // 15327; 0xFBDF
+  return in(0xFBDF) & 0xFF;  
+}
+
+byte readMouseY() {
+  // 16351; 0xFFDF
+  return in(0xFFDF) & 0xFF;
+}
+
+byte readMouseB() {
+  // 15071; 0xFADF
+  return in(0xFADF) & 0x07;
+}
+
+byte readMouseW() {
+  // 15071; 0xFADF
+  return (in(0xFADF) & 0xF8) / 8;
+}
+#endif

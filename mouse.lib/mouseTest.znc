@@ -1,0 +1,36 @@
+make nex "mouseTest.nex";
+
+include "/znc/io.znc"
+include "mouse.znc";
+
+for(;;) {
+
+  gotoxy(0,0);  
+  puts("x:");
+  printnum(readMouseX());
+  putc(32);
+  putc(32);
+  putc(32);
+  
+  gotoxy(0,1);
+  puts("y:");
+  printnum(readMouseY());
+  putc(32);
+  putc(32);
+  putc(32);
+
+  gotoxy(0,2);
+  puts("wb:");
+  printnum(readMouseB());
+  putc(32);
+  putc(32);
+  putc(32);
+ 
+  gotoxy(0,3);
+  puts("wh:");
+  printnum(readMouseW());
+  putc(32);
+  putc(32);
+  putc(32);
+
+}
