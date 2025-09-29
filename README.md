@@ -7,7 +7,7 @@ ZX Spectrum Next.
 
 Copy theses files to your /znc folder on your ZX 
 Spectrum Next.
-- mouse.vnc - v0.0.1 (29-Sep-2025)
+- mouse.vnc - v0.0.2 (29-Sep-2025)
 - joystick.znc - v0.0.3 (29-Sep-2025)
 - version.znc - v0.0.1 (23-Sep-2025)
 
