@@ -1,6 +1,7 @@
 make nex "joystickTest.nex";
 
 include "joystick.znc";
+include "/znc/io.znc";
 
 int a;
 byte c=48;
@@ -18,26 +19,99 @@ void putBin(int a)
  }
 }
 
+void jButtons(byte n) {
+  byte left = n*10;
+  
+  gotoxy(left,3);
+  putc(48+buttonJoy(n, JOYSTK_UP));
+  
+  gotoxy(left,4);
+  putc(48+buttonJoy(n, JOYSTK_DOWN));
+
+  gotoxy(left,5);
+  putc(48+buttonJoy(n, JOYSTK_LEFT));
+
+  gotoxy(left,6);
+  putc(48+buttonJoy(n, JOYSTK_RIGHT));
+
+  gotoxy(left,7);
+  putc(48+buttonJoy(n, JOYSTK_A));
+
+  gotoxy(left,8);
+  putc(48+buttonJoy(n, JOYSTK_B));
+
+  gotoxy(left,9);
+  putc(48+buttonJoy(n, JOYSTK_C));
+
+  gotoxy(left,10);
+  putc(48+buttonJoy(n, JOYSTK_X));
+
+  gotoxy(left,11);
+  putc(48+buttonJoy(n, JOYSTK_Y));
+
+  gotoxy(left,12);
+  putc(48+buttonJoy(n, JOYSTK_Z));
+  
+  gotoxy(left,13);
+  putc(48+buttonJoy(n, JOYSTK_START));
+  
+  gotoxy(left,14);
+  putc(48+buttonJoy(n, JOYSTK_SELECT));
+}
+
 void main() {
 
   initJoystick();
+  
+  gotoxy(0,0);   
+  puts("J1");
+
+  gotoxy(17,0);
+  puts("J2");
+  
+  gotoxy(12,3);
+  puts("up");
+  gotoxy(12,4);
+  puts("down");
+  gotoxy(12,5);
+  puts("left");
+  gotoxy(12,6);
+  puts("right");
+
+  gotoxy(12,7);
+  puts("A");
+  gotoxy(12,8);
+  puts("B");
+  gotoxy(12,9);
+  puts("C");
+
+  gotoxy(12,10);
+  puts("X");
+  gotoxy(12,11);
+  puts("Y");
+  gotoxy(12,12);
+  puts("Z");
+  
+  gotoxy(12,13);
+  puts("START");
+  gotoxy(12,14);
+  puts("SELECT");
+    
+
 
   for(;;) {
-    putc(22);
-    putc(0);
-    putc(0);
-    
-    puts("J1 : ");
+    gotoxy(0,1);   
     a = readJoy1();
-    putBin(a);    
-    putc(13);
+    putBin(a);
+    jButtons(1);
     
-    puts("J2 : ");
+    gotoxy(17,1);
     a = readJoy2();
     putBin(a);
-    putc(13);
+    jButtons(2);
     
     c=c^1;
+    gotoxy(0,21);
     putc(c);
   }  
 }
