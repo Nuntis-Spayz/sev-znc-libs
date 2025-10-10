@@ -1,0 +1,43 @@
+// datetimeTest.znc
+// ------------------------
+// v 0.0.1      11-Oct-2025
+// freeware by nuntis/spayz
+// ------------------------
+make nex "datetimeTest.nex";
+
+include "/znc/io.znc";
+include "datetime.znc";
+
+byte y;
+int[6] dateTime;
+int r;
+
+for(y=0; y<6; y=y+1)
+{
+  dateTime[y]=0;
+}
+
+gotoxy(0,0);
+puts("0  Year ");
+putc(13);
+puts("1 Month ");
+putc(13);
+puts("2   Day ");
+putc(13);
+puts("3  Hour ");
+putc(13);
+puts("4  Mins ");
+putc(13);
+puts("5  Secs ");
+
+for(;;) {
+
+  r=getDateTime(dateTime);
+   
+  for(y=0; y<6; y=y+1)
+  {
+    gotoxy(8,y);
+    printnum(dateTime[y]);
+    putc(32);
+  }
+}
