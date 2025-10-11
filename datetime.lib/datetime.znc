@@ -1,6 +1,6 @@
 // datetime.znc
 // ------------------------
-// v 0.0.1      11-Oct-2025
+// v 0.0.2      11-Oct-2025
 // freeware by nuntis/spayz
 // ------------------------
 #ifndef DATETIME__
@@ -144,8 +144,6 @@ int getDateTime(int dt) __asm__ {
   srl a          ; >>1
   srl a          ; >>2
   srl a          ; >>3
-  srl a          ; >>4
-  srl a          ; >>5
   and 0x1F       ; keep 5 bits = 0...23
   ld (ix+6), a   ; store hours
   ld (ix+7),0

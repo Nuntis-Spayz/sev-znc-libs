@@ -1,4 +1,5 @@
 # sev-znc-libs
+
 My ZNC Libraries
 ----------------
 
@@ -10,7 +11,7 @@ Spectrum Next, or run install.bas on your Next
 which does exactly that if you have cloned or 
 unzipped this repository to you SD Card.
 
-- datetime.vnc - v0.0.1 (11-Oct-2025)
+- datetime.vnc - v0.0.2 (11-Oct-2025)
 - joystick.znc - v0.0.4 (05-Oct-2025)
 - mouse.vnc    - v0.0.2 (29-Sep-2025)
 - version.znc  - v0.0.1 (23-Sep-2025)
