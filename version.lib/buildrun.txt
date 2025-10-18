@@ -1,7 +1,0 @@
-#program buildrun
-#autostart
-  10 REM SAVE "buildrun.bas" LINE 10
-  20 .znc versionTest.znc
-  30 .zopt /znc/rules.opt versionTest.asm
-  40 .asm versionTest.asm
-  50 .nexload versionTest.nex

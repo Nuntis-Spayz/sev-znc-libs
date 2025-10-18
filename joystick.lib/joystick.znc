@@ -1,7 +1,7 @@
 // joystick.znc
 // ------------------------
 // v 0.0.4      05-Oct-2025
-// freeware by nuntis/spayz
+// (C)2025  by nuntis/spayz
 // ------------------------
 #ifndef JOYSTICK__
 const byte JOYSTICK__=0x01;

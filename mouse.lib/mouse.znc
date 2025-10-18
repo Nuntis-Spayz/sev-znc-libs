@@ -1,7 +1,7 @@
 // mouse.znc
 // ------------------------
 // v 0.0.2      29-Sep-2025
-// freeware by nuntis/spayz
+// (C)2025  by nuntis/spayz
 // ------------------------
 #ifndef MOUSE__
 const byte MOUSE__=0x01;

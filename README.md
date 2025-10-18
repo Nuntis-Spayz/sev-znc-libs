@@ -25,4 +25,10 @@ The library folders also contain older versions of
 each library, so you can see the evolution of the 
 libraries.
 
+Copyright 2025 Ian Jukes (aka Nuntis, Sevarian, Spayz)
+
+The code and libraries within are distributed under the terms of the 
+Lesser GNU General Public License.
+
+
 
