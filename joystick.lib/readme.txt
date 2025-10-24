@@ -3,6 +3,9 @@ Joystick Library znc
 Written by nuntis/Spayz - spayz@realgamer.org
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
+2025-Oct-25
+v0.0.5 - initJoystick preserves other bits in the NextReg
+
 2025-Oct-05
 v0.0.4 - add buttonJoy function, and button constants
 
@@ -24,4 +27,4 @@ Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 to use any of this code as he sees fit.
 
 spayz@realgamer.org
-05-Oct-2025
+25-Oct-2025
