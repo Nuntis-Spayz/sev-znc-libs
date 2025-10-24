@@ -2,14 +2,14 @@
 
 My ZNC Libraries
 ----------------
+https://github.com/Nuntis-Spayz/sev-znc-libs
 
 These libraries are for  the znc compiler on the 
 ZX Spectrum Next.
 
-Copy theses files to your /znc folder on your ZX 
-Spectrum Next, or run install.bas on your Next 
-which does exactly that if you have cloned or 
-unzipped this repository to you SD Card.
+Copy theses files to your /znc folder on your ZX Spectrum Next,
+or run install.bas on your Next which does exactly that if you 
+have cloned or unzipped this repository to you SD Card.
 
 - datetime.vnc - v0.0.2 (11-Oct-2025)
 - joystick.znc - v0.0.4 (05-Oct-2025)

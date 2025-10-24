@@ -1,6 +1,7 @@
 Joystick Library znc
 --------------------
 Written by nuntis/Spayz - spayz@realgamer.org
+https://github.com/Nuntis-Spayz/sev-znc-libs
 
 2025-Oct-05
 v0.0.4 - add buttonJoy function, and button constants

@@ -7,6 +7,7 @@
 // Lesser GNU General Public License.
 // Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 // to use any of this code as he sees fit.
+// https://github.com/Nuntis-Spayz/sev-znc-libs
 
 #ifndef MOUSE__
 const byte MOUSE__=0x01;

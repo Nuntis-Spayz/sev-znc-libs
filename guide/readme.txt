@@ -1,6 +1,7 @@
 ZNC Guide file .gde
 --------------------
 Written by nuntis/Spayz - spayz@realgamer.org
+https://github.com/Nuntis-Spayz/sev-znc-libs
 
 2025-Sep-06
 v0.0.1d - beta
