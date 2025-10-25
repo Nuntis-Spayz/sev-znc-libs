@@ -4,6 +4,7 @@ Written by nuntis/Spayz - spayz@realgamer.org
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
 2025-Oct-25
+v0.0.6 - initJoystick fix bitmap masks
 v0.0.5 - initJoystick preserves other bits in the NextReg
 
 2025-Oct-05
