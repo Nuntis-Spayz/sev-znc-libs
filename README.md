@@ -7,6 +7,10 @@ https://github.com/Nuntis-Spayz/sev-znc-libs
 These libraries are for  the znc compiler on the 
 ZX Spectrum Next.
 
+Copy the znc.gde file to your /docs/guides folder
+
+- znc.gde      - v0.0.2 (09-Nov-2025)
+
 Copy theses files to your /znc folder on your ZX Spectrum Next,
 or run install.bas on your Next which does exactly that if you 
 have cloned or unzipped this repository to you SD Card.
