@@ -5,7 +5,7 @@
 // ------------------------
 make nex "datetimeTest.nex";
 
-include "/znc/io.znc";
+include "/zdev/io.znc";
 include "datetime.znc";
 
 byte y;

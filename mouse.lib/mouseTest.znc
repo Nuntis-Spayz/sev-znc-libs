@@ -1,6 +1,6 @@
 make nex "mouseTest.nex";
 
-include "/znc/io.znc"
+include "/zdev/io.znc"
 include "mouse.znc";
 
 for(;;) {

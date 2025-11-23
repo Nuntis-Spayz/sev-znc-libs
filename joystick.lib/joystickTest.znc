@@ -1,7 +1,7 @@
 make nex "joystickTest.nex";
 
 include "joystick.znc";
-include "/znc/io.znc";
+include "/zdev/io.znc";
 
 int a;
 byte c=48;
