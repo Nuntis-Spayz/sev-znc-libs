@@ -1,0 +1,41 @@
+// --------------
+//  PrintBinary
+// -------- v0.0.1
+
+#ifndef PRINTBINARY__
+const byte PRINTBINARY__=1;
+
+include "/zdev/io.znc"
+
+void printBinB(int a,byte bits)
+{
+ // countdown from
+ int x=1<<(bits-1);
+ 
+ for(int b=x;b!=0;)
+ {
+   if((b & a)==b) {
+     putc(49);
+   } else {
+     putc(48);
+   }
+   b=(b>>1) & 0x7FFF;
+ }
+}
+
+void printBin(int a)
+{
+  int x=0x8000;
+  byte b=16;
+  while((x & a)==0)
+  {
+    x=x>>1;
+    b=b-1;
+  }
+  if(b==0)
+  {
+    b=1;
+  }
+  printBinB(a,b);
+}
+#endif
