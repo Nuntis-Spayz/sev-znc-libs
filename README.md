@@ -9,9 +9,9 @@ ZX Spectrum Next.
 
 Copy the znc.gde file to your /docs/guides folder
 
-- znc.gde      - v0.0.3 (23-Nov-2025)
+- znc.gde      - v0.0.4 (01-Dec-2025)
 
-Copy theses files to your /znc folder on your ZX Spectrum Next,
+Copy theses files to your /zdev folder on your ZX Spectrum Next,
 or run install.bas on your Next which does exactly that if you 
 have cloned or unzipped this repository to you SD Card.
 
@@ -32,3 +32,4 @@ Copyright 2025 Ian Jukes (aka Nuntis, Sevarian, Spayz)
 see COPYING and COPYING.LESSER
 Specific permission is granted to Chris Taylor (aka taylorza on 
 itcho.io) to use any of this code as he sees fit.
+
