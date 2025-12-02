@@ -4,12 +4,11 @@ My ZNC Libraries
 ----------------
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
-These libraries are for the znc compiler on the 
-ZX Spectrum Next.
+These libraries are for the znc compiler on the ZX Spectrum Next.
 
 Copy the znc.gde file to your /docs/guides folder
 
-- znc.gde      - v0.0.4 (01-Dec-2025)
+- znc.gde      - v0.0.5 (02-Dec-2025)
 
 Copy theses files to your /zdev folder on your ZX Spectrum Next,
 or run install.bas on your Next which does exactly that if you 
@@ -33,3 +32,4 @@ see COPYING and COPYING.LESSER
 Specific permission is granted to Chris Taylor (aka taylorza on 
 itcho.io) to use any of this code as he sees fit.
 
+02-Dec-2025 Ian Jukes / spayz@realgamer.org
