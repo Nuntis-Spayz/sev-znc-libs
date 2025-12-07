@@ -1,0 +1,18 @@
+make nex "test.nex";
+
+include "/zdev/io.znc";
+include "/zdev/string.znc";
+
+include "strcontains.znc";
+
+puts("abcdefghi < cde ");
+printnum( strcontains("abcdefghi", "cde") );
+putc(13);
+
+puts("abcdefghi < xy ");
+printnum( strcontains("abcdefghi", "xy") );
+putc(13);
+
+for(;;)
+{
+}
