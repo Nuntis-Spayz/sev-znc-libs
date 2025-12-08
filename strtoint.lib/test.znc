@@ -1,0 +1,15 @@
+make nex "test.nex";
+
+include "/zdev/io.znc";
+
+include "strtoint.znc";
+
+printnum( strtoint(" 1912abcdefghi") );
+putc(13);
+
+printnum( strtoint("-42 abcdefghi") );
+putc(13);
+
+for(;;)
+{
+}

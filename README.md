@@ -19,6 +19,7 @@ have cloned or unzipped this repository to you SD Card.
 - joystick.znc    - v0.0.6 (25-Oct-2025)
 - mouse.znc       - v0.0.2 (29-Sep-2025)
 - strcontains.znc - v0.0.1 (07-Dec-2025)
+- strtoint.vnc    - v0.0.1 (07-Dec-2025)
 - version.znc     - v0.0.1 (23-Sep-2025)
 
 The library folders also contains test programmes and a 
