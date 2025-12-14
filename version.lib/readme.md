@@ -1,11 +1,10 @@
-DateTime Library znc
---------------------
+#Version Library znc
+
 Written by nuntis/Spayz - spayz@realgamer.org
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
-2025-Oct-11
-v0.0.2 - hours shifted too far
-v0.0.1 - first release
+2025-Sep-23
+v0.0.1 - written in ZNC
 
 Copyright 2025 Ian Jukes (aka Nuntis, Sevarian, Spayz)
 
@@ -16,4 +15,4 @@ Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 to use any of this code as he sees fit.
 
 spayz@realgamer.org
-11-Oct-2025
+23-Sep-2025

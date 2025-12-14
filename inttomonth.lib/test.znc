@@ -1,0 +1,22 @@
+make nex "test.nex";
+
+include "/zdev/io.znc";
+include "/zdev/string.znc";
+
+include "intToMonth.znc";
+
+for(int i = 1; i <= 12; i = i + 1) // Month range should be 1 to 12
+{
+  gotoxy(0,i);
+  
+  printnum(i);
+  putc(32);
+  puts(intToShMonth(i)); // Call to intToShMonth
+  putc(32);
+  puts(intToMonth(i));    // Call to intToMonth
+  putc(13);
+}
+
+for(;;)
+{
+}

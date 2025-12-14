@@ -1,5 +1,5 @@
-strcontains Library znc
------------------------
+# strtoint Library znc
+
 Written by nuntis/Spayz - spayz@realgamer.org
 https://github.com/Nuntis-Spayz/sev-znc-libs
 

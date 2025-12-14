@@ -1,10 +1,10 @@
-Version Library znc
--------------------
+intToMonth Library znc
+----------------------
 Written by nuntis/Spayz - spayz@realgamer.org
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
-2025-Sep-23
-v0.0.1 - written in ZNC
+2025-Dec-14
+v0.0.1 - first release
 
 Copyright 2025 Ian Jukes (aka Nuntis, Sevarian, Spayz)
 
@@ -15,4 +15,4 @@ Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 to use any of this code as he sees fit.
 
 spayz@realgamer.org
-23-Sep-2025
+14-Dec-2025
