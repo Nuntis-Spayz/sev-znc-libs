@@ -1,0 +1,51 @@
+make nex "install.nex";
+
+puts("Installing ZNC Guide");
+
+//  30 .cp -f guide/znc.gde /docs/guides/znc.gde
+//  40 REM different paths where you may have your znc libraries installed
+//  50 REM vForth uses /tools/vForth, so optionally put your znc library files in there
+//  60 DATA "/zdev","/znc","/tools/zdev","/tools/znc",""
+//  70 path$="-"
+//  80 RESTORE 
+//  90 REPEAT 
+// 100   READ path$
+// 110   WHILE path$<>""
+// 120    REM test if the path exists
+// 130    CLOSE # 14
+// 140    ON ERROR GO TO @noFolder
+// 150    OPEN # 14,"i>"+path$+"/ay.znc"
+// 160    exists=1
+// 170    GO TO @contin
+// 180    @noFolder
+// 190      exists=0
+// 200    @contin
+// 210    REM continue
+// 220    CLOSE # 14
+// 230    ON ERROR CONTINUE 
+// 240    ;PRINT 
+// 250   IF exists=1 
+// 260     PRINT 
+// 270     PRINT "Path "+path$;
+// 280     PRINT ", exists:";exists
+// 290  
+// 300     PROC cpf("binary")
+// 310     PROC cpf("datetime")
+// 320     PROC cpf("intToMonth")
+// 330     PROC cpf("joystick")
+// 340     PROC cpf("mouse")
+// 350     PROC cpf("strcontains")
+// 360     PROC cpf("strtoint")
+// 370     PROC cpf("version")
+// 380  
+// 390   ENDIF 
+// 400 REPEAT UNTIL path$=""
+// 410 GO TO @fin
+// 420 DEFPROC cpf(f$)
+// 430    PRINT "Installing ";f$;
+// 440    a$="-f "+f$+".lib/"+f$+".znc "+path$+"/"+f$+".znc"
+// 450    .$ cp a$
+// 460 ENDPROC 
+// 470 @fin
+ 
+ puts("Fin.");
