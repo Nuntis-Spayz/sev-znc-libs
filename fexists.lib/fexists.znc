@@ -1,0 +1,23 @@
+// --------------
+//  fexists
+// -------- v0.0.1
+
+#ifndef FEXISTS__
+const byte FEXISTS__=1;
+
+include "/zdev/fileio.znc";
+
+byte fexists(char* file) {
+
+  byte handle = fopen(file, M_EXIST);
+  byte e = errno;
+  fclose(handle);
+
+  if(e==0) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+
+#endif

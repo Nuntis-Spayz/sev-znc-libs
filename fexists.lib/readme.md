@@ -1,17 +1,9 @@
-# ZNC Guide file .gde
+# fexists Library znc
 
 Written by nuntis/Spayz - spayz@realgamer.org
-
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
-- 2025-Dec-29 - v0.0.9  - add fexists, fcopy libraries
-- 2025-Dec-29 - v0.0.8  - update version numbers and minor amends
-- 2025-Dec-28 - v0.0.7  - add switch, ++ and --
-- 2025-Dec-14 - v0.0.6  - add extra library info (intToMonth)
-- 2025-Dec-02 - v0.0.5  - typographical fixes 
-- 2025-Dec-01 - v0.0.4  - add binary lib info
-- 2025-Nov-09 - v0.0.2  - add library info
-- 2025-Sep-06 - v0.0.1d - beta
+2025-Dec-29 - v0.0.1 - written in assembly
 
 Copyright 2025 Ian Jukes (aka Nuntis, Sevarian, Spayz)
 

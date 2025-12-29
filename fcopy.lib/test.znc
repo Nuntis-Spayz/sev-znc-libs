@@ -1,0 +1,34 @@
+make dot "/dot/fcopytest";
+
+include "/zdev/rnd.znc"
+include "fcopy.znc"
+
+puts("fcopy");
+putc(13);
+
+char* src="fcopy.znc";
+char* des="fcopyXX.znc";
+
+rndseed();
+
+byte c = 48 + (9 * (rnd() && 127) / 127 );
+des[5]= c;
+c = 48 + (9 * (rnd() && 127) / 127);
+des[6]= c;
+
+puts("src: ");
+puts(src);
+putc(13);
+
+puts("dest: ");
+puts(des);
+putc(13);
+putc(13);
+
+puts("copying");
+putc(13);
+
+fcopy(src,des);
+
+puts("fcopy done");
+putc(13);

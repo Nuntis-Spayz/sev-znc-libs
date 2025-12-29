@@ -1,0 +1,34 @@
+make dot "/dot/fexiststest";
+
+include "/zdev/io.znc";
+include "fexists.znc"
+
+puts("fexists");
+putc(13);
+
+char* f1="fexists.znc";
+char* f2="fxetis.znc";
+
+puts("f1: ");
+puts(f1);
+puts(" : ");
+byte exists = fexists(f1);
+if(exists==0) {
+  puts("no ");
+} else {
+  puts("yes ");
+}
+printnum(exists);
+putc(13);
+
+puts("f2: ");
+puts(f2);
+puts(" : ");
+exists = fexists(f2);
+if(exists==0) {
+  puts("no ");
+} else {
+  puts("yes ");
+}
+printnum(exists);
+putc(13);

@@ -8,7 +8,7 @@ These libraries are for the znc compiler on the ZX Spectrum Next.
 
 Copy the znc.gde file to your /docs/guides folder
 
-- znc.gde         - v0.0.8 (29-Dec-2025)
+- znc.gde         - v0.0.9 (29-Dec-2025)
 
 Copy theses files to your /zdev folder on your ZX Spectrum Next,
 or run install.bas on your Next which does exactly that if you 
@@ -16,6 +16,8 @@ have cloned or unzipped this repository to you SD Card.
 
 - binary.znc      - v0.0.1 (01-Dec-2025)
 - datetime.znc    - v0.0.2 (11-Oct-2025)
+- fcopy.znc       - v0.0.1 (29-Dec-2025)
+- fexists.znc     - v0.0.1 (29-Dec-2025)
 - intToMonth.znc  - v0.0.1 (14-Dec-2025)
 - joystick.znc    - v0.0.6 (25-Oct-2025)
 - mouse.znc       - v0.0.2 (29-Sep-2025)
