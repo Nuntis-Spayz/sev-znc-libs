@@ -4,6 +4,7 @@ Written by nuntis/Spayz - spayz@realgamer.org
 
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
+- 2025-Dec-29 - v0.0.8  - update version numbers and minor amends
 - 2025-Dec-28 - v0.0.7  - add switch, ++ and --
 - 2025-Dec-14 - v0.0.6  - add extra library info (intToMonth)
 - 2025-Dec-02 - v0.0.5  - typographical fixes 
@@ -22,4 +23,4 @@ Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 to use any of this code as he sees fit.
 
 spayz@realgamer.org
-28-Dec-2025
+29-Dec-2025
