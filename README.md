@@ -8,7 +8,7 @@ These libraries are for the znc compiler on the ZX Spectrum Next.
 
 Copy the znc.gde file to your /docs/guides folder
 
-- znc.gde         - v0.0.9 (29-Dec-2025)
+- znc.gde         - v0.0.10 (02-Jan-2026)
 
 Copy theses files to your /zdev folder on your ZX Spectrum Next,
 or run install.bas on your Next which does exactly that if you 
@@ -32,11 +32,11 @@ into .nex files that will run on the Next.
 The library folders also contain older versions of each library, 
 so you can see the evolution of the libraries.
 
-Copyright 2025 Ian Jukes (aka Nuntis, Sevarian, Spayz)
+Copyright 2026 Ian Jukes (aka Nuntis, Sevarian, Spayz)
 
 see COPYING and COPYING.LESSER
 
 Specific permission is granted to Chris Taylor (aka taylorza on 
 itcho.io) to use any of this code as he sees fit.
 
-29-Dec-2025 Ian Jukes / spayz@realgamer.org
+02-Jan-2026 Ian Jukes / spayz@realgamer.org
