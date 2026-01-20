@@ -1,6 +1,13 @@
-// --------------
-//  PrintBinary
-// -------- v0.0.1
+// binary.znc
+// ------------------------
+// v 0.0.1      01-Dec-2025
+//    (C)Ian "nuntis" Jukes
+// ------------------------
+// The code and libraries within are distributed under the terms of the 
+// Lesser GNU General Public License.
+// Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
+// to use any of this code as he sees fit.
+// https://github.com/Nuntis-Spayz/sev-znc-libs
 
 #ifndef PRINTBINARY__
 const byte PRINTBINARY__=1;
