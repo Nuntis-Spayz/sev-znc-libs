@@ -6,16 +6,19 @@ https://github.com/Nuntis-Spayz/sev-znc-libs
 
 These libraries are for the znc compiler on the ZX Spectrum Next.
 
+Rewriting to work with ZNC 0.3, initially without structs but that will be 
+next to-do (libraries marked with a star have been updated for ZNC 0.3.
+
 Copy the znc.gde file to your /docs/guides folder
 
 - znc.gde         - v0.0.10 (02-Jan-2026)
 
-Copy theses files to your /zdev folder on your ZX Spectrum Next,
-or run install.bas on your Next which does exactly that if you 
-have cloned or unzipped this repository to you SD Card.
+Copy theses files to your /zdev folder on your ZX Spectrum Next, or run 
+install.bas on your Next which does exactly that if you have cloned or 
+unzipped this repository to your SD Card.
 
-- binary.znc      - v0.0.1 (01-Dec-2025)
-- datetime.znc    - v0.0.2 (11-Oct-2025)
+- binary.znc      - v0.0.1 (01-Dec-2025) *
+- datetime.znc    - v0.0.2 (20-Jan-2026) *
 - fcopy.znc       - v0.0.1 (29-Dec-2025)
 - fexists.znc     - v0.0.1 (29-Dec-2025)
 - intToMonth.znc  - v0.0.1 (14-Dec-2025)
@@ -25,18 +28,13 @@ have cloned or unzipped this repository to you SD Card.
 - strtoint.vnc    - v0.0.1 (07-Dec-2025)
 - version.znc     - v0.0.1 (23-Sep-2025)
 
-The library folders also contains test programmes and a 
-ZX Spectrum BASIC programme that will build the test programmes 
-into .nex files that will run on the Next.
+The library folders also contains test programmes and a ZX Spectrum BASIC 
+programme that will build the test programmes into .nex files that will run 
+on the Next.
 
-The library folders also contain older versions of each library, 
-so you can see the evolution of the libraries.
-
-Copyright 2026 Ian Jukes (aka Nuntis, Sevarian, Spayz)
-
-see COPYING and COPYING.LESSER
+Copyright 2026 Ian Jukes (aka Nuntis, Sevarian, Spayz) see LICENCE
 
 Specific permission is granted to Chris Taylor (aka taylorza on 
 itcho.io) to use any of this code as he sees fit.
 
-02-Jan-2026 Ian Jukes / spayz@realgamer.org
+20-Jan-2026 Ian Jukes / spayz@realgamer.org

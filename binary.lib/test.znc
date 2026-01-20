@@ -1,0 +1,40 @@
+// -----------------
+//  Put Binary Test
+// --------- v0.0.1a
+
+make nex "test.nex";
+
+include "binary.znc";
+include "/zdev/io.znc";
+
+void test(int i)
+{
+  printnum(i);
+  putc(32);
+  printBinB(i,16);
+  putc(13);
+  
+  printnum(i);
+  putc(32);
+  printBin(i);
+  putc(13);
+  putc(13);
+
+}
+
+paper(7);
+ink(1);
+
+gotoxy(0,0);
+
+test(5);
+test(18347);
+test(62345);
+test(1825);
+test(37281);
+test(19235);
+test(9256);
+  
+for(;;)
+{
+}

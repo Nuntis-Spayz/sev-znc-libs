@@ -1,7 +1,7 @@
 // datetime.znc
 // ------------------------
-// v 0.0.2      11-Oct-2025
-// (C)2025  by nuntis/spayz
+// v 0.0.3      20-Jan-2026
+//          by nuntis/spayz
 // ------------------------
 // The code and libraries within are distributed under the terms of the 
 // Lesser GNU General Public License.
@@ -35,7 +35,7 @@ const byte DT_SECS  = 5;
 //      Fc=1 if no RTC, or invalid date/time, and:
 //      BC=0, DE=0, HL undefined
 
-int getDateTime(int dt) __asm__ {
+int getDateTime(int[6] dt) __asm__ {
   
   push ix
   ld ix,0
@@ -46,7 +46,7 @@ int getDateTime(int dt) __asm__ {
   push hl
   
   rst 0x08
-  db $8e // * M_GETDATE
+  db $8e // M_GETDATE
   
   pop ix
   

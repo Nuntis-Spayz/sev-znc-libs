@@ -1,6 +1,7 @@
 /dev
 /dev*
 /test
+/fcatalog.lib
 *.asm
 *.nex
 *.bak

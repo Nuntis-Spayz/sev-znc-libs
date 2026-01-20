@@ -1,16 +1,17 @@
-// datetimeTest.znc
-// ------------------------
-// v 0.0.1      11-Oct-2025
-//          by nuntis/spayz
-// ------------------------
-make nex "datetimeTest.nex";
+// test.znc for datetime.znc
+// -------------------------
+// v 0.0.1a      11-Oct-2025
+//           by nuntis/spayz
+// -------------------------
+
+make nex "test.nex";
 
 include "/zdev/io.znc";
 include "datetime.znc";
 
-byte y;
+byte y=0;
 int[6] dateTime;
-int r;
+int r=0;
 
 for(y=0; y<6; y=y+1)
 {
