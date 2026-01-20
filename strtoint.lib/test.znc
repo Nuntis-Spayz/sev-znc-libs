@@ -1,7 +1,6 @@
 make nex "test.nex";
 
 include "/zdev/io.znc";
-
 include "strtoint.znc";
 
 printnum( strtoint(" 1912abcdefghi") );

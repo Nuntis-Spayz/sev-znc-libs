@@ -1,4 +1,4 @@
-make nex "mouseTest.nex";
+make nex "test.nex";
 
 include "/zdev/io.znc"
 include "mouse.znc";

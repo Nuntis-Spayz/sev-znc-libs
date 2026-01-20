@@ -1,4 +1,4 @@
-make nex "versionTest.nex";
+make nex "test.nex";
 
 include "version.znc";
 

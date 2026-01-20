@@ -7,7 +7,7 @@ https://github.com/Nuntis-Spayz/sev-znc-libs
 These libraries are for the znc compiler on the ZX Spectrum Next.
 
 Rewriting to work with ZNC 0.3, initially without structs but that will be 
-next to-do (libraries marked with a star have been updated for ZNC 0.3.
+next to-do (libraries marked with a star have been tested/updated for ZNC 0.3.
 
 Copy the znc.gde file to your /docs/guides folder
 
@@ -20,13 +20,13 @@ unzipped this repository to your SD Card.
 - binary.znc      - v0.0.1 (01-Dec-2025) *
 - datetime.znc    - v0.0.2 (20-Jan-2026) *
 - fcopy.znc       - v0.0.1 (29-Dec-2025)
-- fexists.znc     - v0.0.1 (29-Dec-2025)
-- intToMonth.znc  - v0.0.1 (14-Dec-2025)
-- joystick.znc    - v0.0.6 (25-Oct-2025)
-- mouse.znc       - v0.0.2 (29-Sep-2025)
-- strcontains.znc - v0.0.1 (07-Dec-2025)
-- strtoint.vnc    - v0.0.1 (07-Dec-2025)
-- version.znc     - v0.0.1 (23-Sep-2025)
+- fexists.znc     - v0.0.1 (29-Dec-2025) *
+- inttomonth.znc  - v0.0.1 (14-Dec-2025) *
+- joystick.znc    - v0.0.6 (25-Oct-2025) *
+- mouse.znc       - v0.0.2 (29-Sep-2025) *
+- strcontains.znc - v0.0.1 (07-Dec-2025) *
+- strtoint.vnc    - v0.0.2 (20-Jan-2026) *
+- version.znc     - v0.0.1 (23-Sep-2025) *
 
 The library folders also contains test programmes and a ZX Spectrum BASIC 
 programme that will build the test programmes into .nex files that will run 
