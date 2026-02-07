@@ -17,7 +17,7 @@ https://github.com/Nuntis-Spayz/sev-znc-libs
 Copyright 2026 Ian Jukes (aka Nuntis, Sevarian, Spayz)
 
 The code and libraries within are distributed under the terms of the 
-Lesser GNU General Public License. see COPYING
+Lesser MIT No Attributtion License. see COPYING
 
 Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 to use any of this code as he sees fit.
