@@ -2,6 +2,18 @@ make dot "/dot/test_nxp";
 
 include "/zdev/io.znc"
 include "nextparam.znc";
+include "/zdev/io.znc";
+
+  byte nn=0;
+  while( args[nn]>0 )
+  {
+    printnum(args[nn]);
+    putc(32);
+    nn++;
+  }
+  printnum(args[nn]);
+  putc(13);
+  
 
   char* param = "                                                            ";
   int i = 0;

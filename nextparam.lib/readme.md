@@ -3,7 +3,9 @@
 Written by nuntis/Spayz - spayz@realgamer.org
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
-2026-Jan-26
+2026-Feb-28
+v0.0.2 - treats parameters in double quotes as single param
+
 v0.0.1 - written in ZNC
        - return parameters from a dot command one at a time
 
@@ -16,4 +18,4 @@ Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 to use any of this code as he sees fit.
 
 spayz@realgamer.org
-26-Jan-2026
+28-Feb-2026
