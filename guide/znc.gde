@@ -1,8 +1,8 @@
 @title ZNC Guide
 @author Ian 'sevarian' Jukes
-@version 0.0.10
-@copyright Copyleft 2026-Jan-02
-@date 2026-Jan-02
+@version 0.0.11
+@copyright Copyleft 2026-Ffeb-xx
+@date 2026-Feb-xx
 
 @index INDEX
 @contents INDEX
@@ -10,11 +10,11 @@
 @node MAIN
 @next INDEX
 @toc INDEX
-@{c}ZNC Compiler - v0.2f
+@{c}ZNC Compiler - v0.3
 @{c}A Native 'C-Like' Compiler
 
 @{h2}Requirements
-znc  - 0.2f       zopt - 0.1        asm  - 0.8c       zed  - 0.5
+znc  - 0.3       zopt - 0.1        asm  - 0.8c       zed  - 0.5
 
 ZNC is a language and compiler for the ZX Spectrum Next. The language is closely
 modeled after the C programming language, but does deviate in some cases where
@@ -57,6 +57,7 @@ languages.
 
 - @{"Strings" LINK STRINGS}
 - @{"Variables" LINK VARIABLES}
+- @{"Data Structures" LINK DSTRUCTS}
 
 - @{"Function Definitions" LINK FUNCDEFS}
 - @{"Types" LINK TYPES}
@@ -485,8 +486,20 @@ to store ten integers you could declare an array of integers as follows
 
 int[10] numbers;
 @--------------------------------------------------------------------
+@node DSTRUCTS
+@prev ARRAYS
+@next FUNCDEFS
+@toc INDEX
+@{h1}Data Structures
+
+Structured Data Types
+
+// TODO ...
+
+
+@--------------------------------------------------------------------
 @node FUNCDEFS
-@prev VARIABLES
+@prev DSTRUCTS
 @next TYPES
 @toc INDEX
 @{h1}Function definition
