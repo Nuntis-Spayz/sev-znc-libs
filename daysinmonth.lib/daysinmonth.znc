@@ -1,0 +1,26 @@
+// daysinmonth.znc
+// ------------------------
+// v 0.0.1      10-Apr-2026
+//          by nuntis/spayz
+// ------------------------
+// The code and libraries within are distributed under
+// the terms of the MIT No Attributtion License.
+// Specific permission is granted to Chris Taylor
+// (aka taylorza on itcho.io) to use any of this code
+// as he sees fit.
+// https://github.com/Nuntis-Spayz/sev-znc-libs
+
+#ifndef DAYSINMONTH__
+const byte DAYSINMONTH__=0x01;
+
+int daysInMonth(int year, int month) {
+  if(month==2) {
+    return ( (year % 4)==0 && (year % 100)!=0) || ((year % 400)==0) ? 29 : 28;
+  } else if(month==4 || month==6 || month==9 || month==11) {
+    return 30;
+  } else {
+    return 31;
+  }
+}
+
+#endif
