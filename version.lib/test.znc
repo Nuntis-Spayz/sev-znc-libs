@@ -10,7 +10,6 @@ void main() {
   putc(48 + (a>>8));
   puts(".");
   putc(48 + ((a>>4) & 15));
-  puts(".");
   putc(48 + (a & 15));
   
   putc(13);
