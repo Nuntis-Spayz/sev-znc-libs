@@ -1,6 +1,6 @@
 // daysinmonth.znc
 // ------------------------
-// v 0.0.1      10-Apr-2026
+// v 0.0.2      18-May-2026
 //          by nuntis/spayz
 // ------------------------
 // The code and libraries within are distributed under
@@ -10,8 +10,8 @@
 // as he sees fit.
 // https://github.com/Nuntis-Spayz/sev-znc-libs
 
-#ifndef DAYSINMONTH__
-const byte DAYSINMONTH__=0x01;
+#ifndef DAYINMONTH__
+const byte DAYINMONTH__=0x01;
 
 int daysInMonth(int year, int month) {
   if(month==2) {

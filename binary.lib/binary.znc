@@ -1,6 +1,6 @@
 // binary.znc
 // ------------------------
-// v 0.0.1      01-Dec-2025
+// v 0.0.2      18-May-2026
 //    (C)Ian "nuntis" Jukes
 // ------------------------
 // The code and libraries within are distributed under
@@ -10,8 +10,8 @@
 // as he sees fit.
 // https://github.com/Nuntis-Spayz/sev-znc-libs
 
-#ifndef PRINTBINARY__
-const byte PRINTBINARY__=1;
+#ifndef PRBINARY__
+const byte PRBINARY__=1;
 
 include "/zdev/io.znc"
 

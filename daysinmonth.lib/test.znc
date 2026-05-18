@@ -1,0 +1,29 @@
+// test.znc for daysinmonth.znc
+// -------------------------
+// v 0.0.1       18-May-2026
+//           by nuntis/spayz
+// -------------------------
+
+make nex "test.nex";
+
+include "/zdev/io.znc";
+include "daysinmonth.znc";
+
+ink(7);
+paper(1);
+gotoxy(0,0);
+
+int y=2026;
+
+for(byte m=1; m<=12; m++)
+{
+  printnum(y);
+  putc(32);
+  printnum(m);
+  putc(32);
+  printnum(daysInMonth(y, m));
+  putc(13); 
+}
+
+for(;;) {
+}

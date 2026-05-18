@@ -56,7 +56,7 @@ void jButtons(byte n) {
   putc(48+buttonJoy(n, JOYSTK_START));
   
   gotoxy(left,14);
-  putc(48+buttonJoy(n, JOYSTK_SELECT));
+  putc(48+buttonJoy(n, JOYSTK_SELCT));
 }
 
 void main() {

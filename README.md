@@ -6,7 +6,7 @@ https://github.com/Nuntis-Spayz/sev-znc-libs
 
 These libraries are for the znc compiler on the ZX Spectrum Next.
 
-All libraries have been tested/updated for ZNC 0.3b
+All libraries have been tested/updated for ZNC 0.4 (18-May-2026)
 
 Copy the znc.gde file to your /docs/guides folder
 
@@ -16,12 +16,12 @@ Copy theses files to your /zdev folder on your ZX Spectrum Next, or run
 install.bas on your Next which does exactly that if you have cloned or 
 unzipped this repository to your SD Card.
 
-- binary.znc          - v0.0.1 (01-Dec-2025)
-- datetime.znc        - v0.0.2 (20-Jan-2026)
-- daysinmonth.znc     - v0.0.1 (10-Apr-2026)
+- binary.znc          - v0.0.2 (18-May-2026)
+- datetime.znc        - v0.0.3 (18-May-2026)
+- daysinmonth.znc     - v0.0.2 (18-May-2026)
 - fexists.znc         - v0.0.1 (29-Dec-2025)
 - inttomonth.znc      - v0.0.1 (14-Dec-2025)
-- joystick.znc        - v0.0.6 (25-Oct-2025)
+- joystick.znc        - v0.0.7 (18-May-2026)
 - mouse.znc           - v0.0.2 (29-Sep-2025)
 - nextparam.znc       - v0.0.2 (28-Feb-2026)
 - startdayofmonth.znc - v0.0.1 (10-Apr-2026)
@@ -30,7 +30,7 @@ unzipped this repository to your SD Card.
 - version.znc         - v0.0.1 (23-Sep-2025)
 
 - fcopy has been temorarily removed until I get it updated to work 
-with znc v0.3+
+with znc v0.4+
 
 The library folders also contains test programmes and a ZX Spectrum 
 BASIC programme that will build the test programmes into .nex files 
@@ -41,4 +41,4 @@ Copyright 2026 Ian Jukes (aka Nuntis, Sevarian, Spayz) see LICENCE
 Specific permission is granted to Chris Taylor (aka taylorza on 
 itcho.io) to use any of this code as he sees fit.
 
-10-Apr-2026 Ian Jukes / spayz@realgamer.org
+18-May-2026 Ian Jukes / spayz@realgamer.org
