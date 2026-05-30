@@ -1,0 +1,15 @@
+@----------------------------------------
+@node INLINEASM
+@prev CONTROLSTRUCTS
+@next INCLUDE
+@toc INDEX
+@{h1}Inline assembly block
+
+Contents are treated as raw Z80N Assembly
+
+<asm>             ::= "__asm__" "{" Z80N_Assembly "}"
+
+The returned value should be placed in HL.
+
+The nonterminal Z80N_Assembly is assumed to represent a block of valid
+Z80N assembly code.

@@ -1,0 +1,16 @@
+@----------------------------------------
+@node FILEIO
+@prev FEXISTS
+@next INTTOMONTH
+@toc INDEX
+@{h1}fileio.znc
+
+Constants
+  M_READ, M_WRITE
+  M_EXIST, M_CREATE, M_NOEXIST, M_TRUNC, M_HDR
+
+Functions
+  fopen(char *filename, byte mode)
+  fread(byte handle, char *buffer, int len)
+  fwrite(byte handle, char *buffer, int len)
+  fclose(byte handle)

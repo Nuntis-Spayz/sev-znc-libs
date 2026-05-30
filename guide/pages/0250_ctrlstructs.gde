@@ -1,0 +1,27 @@
+@----------------------------------------
+@node CONTROLSTRUCTS
+@prev DECLARATIONS1
+@next BUILTINFNS
+@toc INDEX
+@{h1}Control structures
+
+<if>       ::= "if" "(" <expr> ")" <statement> [ "else" <statement> ]
+
+<switch>   ::= "switch" "(" <expr> ")" <switch_block>
+
+<switch_block> ::= "{" { <case_section> } "{"
+
+<case_section> ::= <case_header> { <statement> }
+
+<case_header>  ::= { "case" <expr> ":" } [ "default" ":" ]
+
+<while>    ::= "while" "(" <expr> ")" <statement>
+
+<for>      ::= "for" "(" [ <decl> | <assignment> ] ";"
+                         [ <expr> ] ";" [ <expr> ] ")" <statement>
+
+<break>    ::= "break" ";"
+
+<continue> ::= "continue" ";"
+
+<return>   ::= "return" [ <expr> ] ";"

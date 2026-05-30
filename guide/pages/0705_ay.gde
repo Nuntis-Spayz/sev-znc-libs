@@ -1,0 +1,25 @@
+@----------------------------------------
+@node AY
+@prev INDEX
+@next BINARY
+@toc INDEX
+@{h1}ay.znc
+
+Constants
+  AY1, AY2, AY3
+  AY_LEFT, AY_RIGHT, AY_STEREO
+
+Functions
+  ay_select(byte chip)
+  ay_wreg(byte r, byte v)
+  ay_tone(byte chan, int tone, byte volume)
+  ay_noise(byte chan, int tone, byte volume)
+  ay_envelope(byte chan, int tone, int period, byte shape)
+  ay_pgm(byte[] values)
+  ay_stop(byte chan)
+  ay_stopall()
+  ay_ping()
+  ay_shoot()
+  ay_explode()
+  byte[14] _ayeffect
+  ay_effect(int toneA, int toneB, byte noise, int period)

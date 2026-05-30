@@ -1,0 +1,25 @@
+@----------------------------------------
+@node VARIADICFNS
+@prev FUNCDEFS
+@next DELIGFNS
+@toc INDEX
+@{h1}Variadic Functions
+
+From v3 is the additions is support for variadic functions, functions that 
+accept a variable number of arguments. Think printf.
+
+In fact, the standard library now includes a lightweight printf 
+implementation supporting %c, %s, %d, %x, %X, and %b.
+
+Example Code:
+
+int sum(int count, ...) {
+  va_list args;
+  int total = 0;
+  
+  va_start(args, count);
+  while (count--) total += va_arg(args, int);
+  va_end(args);
+
+  return total;
+}

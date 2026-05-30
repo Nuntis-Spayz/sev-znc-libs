@@ -1,0 +1,25 @@
+@----------------------------------------
+@node COMPILING
+@prev INSTALLING
+@next EXAMPLE
+@toc INDEX
+@{h1}Compiling code
+
+Compilation is a two stage process.
+
+@{h3}Compile the source code to assembly language
+The following will compile a source file called demo.znc to a corresponding 
+assembly file called demo.asm
+
+.znc demo.znc
+
+@{h3}Assemble the file to the executable binary
+Using the NextBASIC Inline Assembler, you can then assemble the generated
+assembly file to a binary.
+
+.asm demo.asm
+
+Now you should have file called demo in the DOT directory on your SD Card.
+This DOT command can be tested by executing the following at the command line.
+
+.demo

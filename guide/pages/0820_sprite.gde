@@ -1,0 +1,12 @@
+@----------------------------------------
+@node SPRITE
+@prev RND
+@next STRCONTAINS
+@toc INDEX
+@{h1}sprite.znc
+
+Functions
+  void spr_load(byte startid, byte *data, int count)
+  void spr_enable()
+  void spr_disable()
+  void spr_update(byte spriteid, byte patternid, int x, int y, byte flags)

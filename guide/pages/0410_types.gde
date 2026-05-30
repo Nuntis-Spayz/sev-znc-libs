@@ -1,0 +1,20 @@
+@----------------------------------------
+@node TYPES
+@prev FUNCDEFS
+@next STATEMENTS
+@toc INDEX
+@{h1}Type definitions include scalar types, arrays, and pointers.
+
+<type>          ::= <scalartype>
+                  | <arraytype>
+                  | <pointertype>
+
+<scalartype>    ::= "char" | "byte" | "int"
+
+<arraytype>     ::= <scalartype> "[" <number> "]"
+
+<pointertype>   ::= <scalartype> "*"
+
+<arglist>       ::= <arg> { "," <arg> }
+
+<arg>           ::= <type> <ident>

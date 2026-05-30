@@ -1,0 +1,9 @@
+@----------------------------------------
+@node STRCONTAINS
+@prev STDAYOFMONTH
+@next STRING
+@toc INDEX
+@{h1}strcontains.znc
+
+Functions
+  byte strcontains(char *haystack, char *search)

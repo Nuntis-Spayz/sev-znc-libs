@@ -1,0 +1,33 @@
+@----------------------------------------
+@node INDEX
+@prev MAIN
+@next CONTENTS
+@toc CONTENTS
+@{h1}Index
+
+- @{"Build Directives" LINK BUILD}
+- @{"Declarations" LINK DECLARATIONS}
+
+- @{"Installing" LINK INSTALLING}
+- @{"Compiling" LINK COMPILING}
+- @{"Example 1" LINK EXAMPLE}, @{"Example 2" LINK EXAMPLE2}
+
+- @{"Libraries" LINK LIBRARIES}
+- @{"Syntax" LINK SYNTAX}
+- @{"Statements" LINK STATEMENTS}
+- @{"Declarations" LINK DECLARATIONS1}
+
+- @{"Control Structures" LINK CONTROLSTRUCTS}
+- @{"Built-In Functions" LINK BUILTINFNS}
+- @{"Inline Assembly" LINK INLINEASM}
+
+- @{"Include" LINK INCLUDE}
+
+- @{"Strings" LINK STRINGS}
+- @{"Variables" LINK VARIABLES}
+- @{"Data Structures" LINK DSTRUCTS}
+
+- @{"Functions" LINK FUNCDEFS}
+- @{"Types" LINK TYPES}
+- @{"Statements" LINK STATEMENTS}
+- @{"Expressions" LINK EXPRESSIONS}

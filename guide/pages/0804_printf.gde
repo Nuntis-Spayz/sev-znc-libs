@@ -1,0 +1,15 @@
+@----------------------------------------
+@node PRINTF
+@prev NEXTPARAM
+@next RND
+@toc INDEX
+@{h1}printf.znc
+
+Functions
+  void printf(char *fmt, ...)
+    'd'
+    'x' 'X'
+    'f'
+    'b'
+    'c'
+    's'

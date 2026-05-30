@@ -1,0 +1,18 @@
+@----------------------------------------
+@node VERSION
+@prev STRING
+@next INDEX
+@toc INDEX
+@{h1}version.znc
+
+Functions
+  int exdosVersion ()
+      Get the exdos version number as BCD
+      BCD = Binary Coded Decimal
+      each 4 bits of the returned 16 bit integer
+      is a decimal digit eg. 0x0209 => 2.09
+
+  int coreVersion ()
+      Get the core version number as BCD
+      each 4 bits of the returned 16 bit integer
+      is a decimal digit eg. 0x3201 =>  3.2.0.1

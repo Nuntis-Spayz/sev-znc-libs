@@ -1,0 +1,36 @@
+@----------------------------------------
+@node SYNTAX
+@prev LIBRARIES
+@next STATEMENTS
+@toc INDEX
+@{h1}Syntax (incomplete)
+
+Program directives and top-level items, where declarations and statements may
+appear.
+
+<program>         ::= [ <make> ]
+                      [ <org> ]
+                      { <top_level_item> }
+
+<top_level_item>  ::= <decl>
+                    | <statement>
+
+<make>            ::= "make" [ "dot" | "nex" | "raw" ] "(" <string> ")" ";"
+
+<org>             ::= "org" <number> ";"
+
+<bank>            ::= "bank" "(" <bankno> [ "," <bankno> ] ")" <stmnt_block>
+
+The bank directive is used to target code for specific banks. This is 
+useful when compiling NEX or direct to memory binaries. Banks contain 
+blocks of code and data.
+
+<bankno> - The bank that the block of code will be compiled and assembled for. <statements> - The code that will be included in this bank
+
+Example: Compile code for bank 40
+
+bank 40 {
+  for(char ch='A'; ch<='Z'; ch=ch+1) {
+    putc(ch)
+  }
+}

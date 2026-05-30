@@ -1,0 +1,50 @@
+@----------------------------------------
+@node BUILD
+@prev MAIN
+@next DECLARATIONS
+@toc INDEX
+@{h1}Build Directives & Top-Level Items
+
+@{h2}Build Directives
+A program may start with optional build directives:
+
+Syntax
+make <type> ["<binary name>"];
+
+The make directive configures the build mode (with options "dot", "nex", or
+"raw") and optionally a string specifying the name an location of the resulting
+binary.
+
+<type>  ::= [ dot | nex | raw ]
+
+dot - Creates a DOT command binary
+nex - Creates a NEX binary
+raw - Raw creates a raw binary with the default code address set to 
+      0xc000 hex or 49152 decimal
+
+make dot "adotfile"
+make dot "/dot/adotfile"
+make nex "anexfile.nex"
+make raw "afile.bin"
+
+["<binary name>"] - Optionally specifies the name of the resulting binary.
+If not provided, the source file name is used as the base of the binary name.
+
+Syntax
+org <address>;
+
+<address> - Specifies the target address for the subsequent code
+
+Example: Target code for address 0x8000
+
+org 0x8000;
+
+The org directive amends the origin (memory address) of the code.
+
+@{h2}Top-Level Items
+Programs are a sequence of top-level items (declarations and/or 
+statements).
+
+Unlike traditional C, top-level statements are allowed. However, if a top-level
+statement calls a function, the function must have been declared before its use;
+either via a full definition or via a prototype.

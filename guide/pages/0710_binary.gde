@@ -1,0 +1,10 @@
+@----------------------------------------
+@node BINARY
+@prev AY
+@next DATETIME
+@toc INDEX
+@{h1}binary.znc
+
+Functions
+  printBin(int i)
+  printBinB(int i, byte bits)

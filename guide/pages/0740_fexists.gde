@@ -1,0 +1,9 @@
+@----------------------------------------
+@node FEXISTS
+@prev DATETIME
+@next FILEIO
+@toc INDEX
+@{h1}fexists.znc
+
+Functions
+  fexists(char* filename)

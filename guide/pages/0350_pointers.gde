@@ -1,0 +1,25 @@
+@----------------------------------------
+@node POINTERS
+@prev VARIABLES
+@next ARRAYS
+@toc INDEX
+@{h1}Pointers
+
+Pointers enable to you access data in memory at the address pointed to by
+the pointer. And integer pointer provides access to a 2 byte integer value
+at the target address, while a byte pointer accesses a single byte at the
+address pointed to by the pointer.
+
+The follow will declare a pointer that points to the ZX Spectrum ULA screen
+memory and writes a byte to the screen.
+
+byte *screen = 0x4000; // ZX Spectrum ULA Screen address (16384 in decimal)
+*screen = 255;         // Write the value 255 to the memory address pointed
+                       // to by "screen"
+
+
+@{h2}Multiple levels of indirection
+ZNC now supports deeper pointer chains, so you can create things like 
+arrays of pointers:
+
+char*[] words = {"One", "Two", "Three"};

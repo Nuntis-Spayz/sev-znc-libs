@@ -1,0 +1,9 @@
+@----------------------------------------
+@node STRTOINT
+@prev STRING
+@next VERSION
+@toc INDEX
+@{h1}strcontains.znc
+
+Functions
+  int strtoint(char *astring)

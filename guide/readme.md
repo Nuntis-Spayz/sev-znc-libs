@@ -4,7 +4,9 @@ Written by nuntis/Spayz - spayz@realgamer.org
 
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
-- 2026-Feb-xx - v0.0.11 - updates for ZNC v0.3
+- 2026-Mar-30 - v0.0.12 - updates for ZNC v0.5
+                          built from pages folder
+- 2026-Mar-29 - v0.0.11 - updates for ZNC v0.3
 - 2026-Jan-02 - v0.0.10 - update version numbers
 - 2025-Dec-29 - v0.0.9  - add fexists, fcopy libraries
 - 2025-Dec-29 - v0.0.8  - update version numbers and minor amends
@@ -18,10 +20,10 @@ https://github.com/Nuntis-Spayz/sev-znc-libs
 Copyright 2026 Ian Jukes (aka Nuntis, Sevarian, Spayz)
 
 The code and libraries within are distributed under the terms of the 
-Lesser MIT No Attributtion License. see COPYING
+MIT No Attributtion License. see COPYING
 
 Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
 to use any of this code as he sees fit.
 
 spayz@realgamer.org
-xx-Feb-2026
+30-Mar-2026

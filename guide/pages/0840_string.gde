@@ -1,0 +1,12 @@
+@----------------------------------------
+@node STRING
+@prev STRCONTAINS
+@next STRTOINT
+@toc INDEX
+@{h1}string.znc
+
+Functions
+  char* strcpy(char *dst, char *src)
+  int strlen(char *s)
+  int strcmp(char *s1, char *s2)
+  char* strcat(char *s1, char *s2)

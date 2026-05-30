@@ -1,0 +1,10 @@
+@----------------------------------------
+@node VARIABLES
+@prev STRINGS
+@next POINTERS
+@toc INDEX
+@{h1}Variable declaration: type, identifier, and optional initializer.
+
+Multiple variables may be declared in one statement.
+
+<vardecl> ::= <type> <ident> [ "=" <expr> ] { "," <ident> [ "=" <expr> ] } ";"

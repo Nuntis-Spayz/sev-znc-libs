@@ -1,0 +1,17 @@
+@----------------------------------------
+@node DELIGFNS
+@prev VARIADICFNS
+@next TYPES
+@toc INDEX
+@{h1}Delegate (function pointer) support
+
+Support for function pointers, but instead of adopting C's famously cryptic 
+syntax, I went with something clearer and more beginner-friendly: delegates, 
+similar to C#.
+
+Code
+// Declare a new delegate (function pointer type) called Callback
+delegate int Callback(int, int);
+
+You can use delegates to create variables, store function references, 
+and pass them around just like any other value.

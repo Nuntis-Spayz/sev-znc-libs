@@ -1,0 +1,12 @@
+@----------------------------------------
+@node NEXTPARAM
+@prev MOUSE
+@next PRINTF
+@toc INDEX
+@{h1}nextparam.znc
+
+Functions
+  int nextParam(int pos, char* param)
+
+provided by
+  https://github.com/Nuntis-Spayz/sev-znc-libs

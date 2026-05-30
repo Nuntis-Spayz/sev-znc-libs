@@ -1,0 +1,18 @@
+@-------------------------------------------
+@node JOYSTICK
+@prev IO
+@next MEMORY
+@toc INDEX
+@{h1}joystick.znc
+
+Constants
+  JOYSTK_RIGHT, JOYSTK_LEFT, JOYSTK_DOWN, JOYSTK_UP
+  JOYSTK_A, JOYSTK_B, JOYSTK_C
+  JOYSTK_X, JOYSTK_Y, JOYSTK_Z
+  JOYSTK_START, JOYSTK_SELECT
+
+Functions
+  void initJoystick()
+  int readJoy1()
+  byte buttonJoy(byte n, int mask)
+  int readJoy2()

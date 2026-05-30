@@ -1,0 +1,36 @@
+@----------------------------------------
+@node LIBRARIES
+@prev EXAMPLE
+@next AY
+@toc INDEX
+@{h1}Libaries
+
+Provided with the ZNC Compiler are several libraries, some with example code.
+As they are all saved in the /zdev/ directory including any of them in you own
+app is as simple as
+
+include "/zdev/<< library >>.znc"
+
+- @{"ay.znc" LINK AY}           A sound library for the AY chips
+- @{"binary.znc" LINK BINARY}       Print Binary Numbers **
+- @{"datetime.znc" LINK DATETIME}     A library for fetching the day time from the RTC **
+- @{"daysinmonth.vnc" LINK DAYSINMONTH}            A function to return the number of days in the month **
+- @{"fexists.znc" LINK FEXISTS}       Test if a file exists
+- @{"fileio.znc" LINK FILEIO}       A simple file handling library
+- @{"intToMonth.znc" LINK INTTOMONTH}   Integer to month name string **
+- @{"io.znc" LINK IO}           A screen control and simple keyboard handling library
+- @{"joystick.znc" LINK JOYSTICK}     Reading the MDC (Mega-Drive) joystick **
+- @{"memory.znc" LINK MEMORY}       Simple memory management library
+- @{"mouse.znc" LINK MOUSE}        Reading the PS/2 mouse **
+- @{"nextparam.vnc" LINK NEXTPARAM}      gets the next parameter **
+- @{"printf.vnc" LINK PRINTF}      a simple printf function
+- @{"rnd.znc" LINK RND}          Random number library
+- @{"sprite.znc" LINK SPRITE}       Basic hardware sprite control
+- @{"startdayofmonth.vnc" LINK STDAYMONTH}      a function to get the weekday of the first day of a  mnth **
+- @{"strcontains.znc" LINK STRCONTAINS}  Does the string contain text **
+- @{"string.znc" LINK STRING}       C-like strings
+- @{"strtoint.vnc" LINK STRTOINT}     String to Integer **
+- @{"version.znc" LINK VERSION}      Retrieve the NextOS and firmware version numbers **
+
+** provided by Ian 'Nuntis' Jukes
+   cf. https://github.com/Nuntis-Spayz/sev-znc-libs

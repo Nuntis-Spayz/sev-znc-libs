@@ -1,0 +1,10 @@
+@----------------------------------------
+@node RND
+@prev PRINTF
+@next SPRITE
+@toc INDEX
+@{h1}rnd.znc
+
+Functions
+  int rnd()
+  void rndseed()

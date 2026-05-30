@@ -1,0 +1,12 @@
+@----------------------------------------
+@node STDAYMONTH
+@prev sprite
+@next STRCONTAINS
+@toc INDEX
+@{h1}startdayofmonth.znc
+
+Functions
+  int startDayOfMonth(int year, int month)
+
+provided by
+  https://github.com/Nuntis-Spayz/sev-znc-libs

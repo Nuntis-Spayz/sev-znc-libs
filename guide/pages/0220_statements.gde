@@ -1,0 +1,25 @@
+@----------------------------------------
+@node STATEMENTS
+@prev SYNTAX
+@next DECLARATIONS1
+@toc INDEX
+@{h1}Statements
+
+<statement> ::= <stmnt_block>
+              | @{"<decl>" LINK DECLARATIONS1}
+              | <assignment>
+              | @{"<if>" LINK CONTROLSTRUCTS}
+              | @{"<switch>" LINK CONTROLSTRUCTS}
+              | @{"<while>" LINK CONTROLSTRUCTS}
+              | @{"<for>" LINK CONTROLSTRUCTS}
+              | @{"<break>" LINK CONTROLSTRUCTS}
+              | @{"<continue>" LINK CONTROLSTRUCTS}
+              | @{"<return>" LINK CONTROLSTRUCTS}
+              | @{"<built-in-function>" LINK BUILTINFNS}
+              | @{"<asm>" LINK INLINEASM}
+              | @{"<include>" LINK INCLUDE}
+              | <expr>
+              | <org>
+              | ";"
+
+<stmnt_block> ::= "{" { <statement> } "}"

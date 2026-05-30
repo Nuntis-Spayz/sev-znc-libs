@@ -1,0 +1,19 @@
+@-----------------------------------------
+@node EXAMPLE
+@prev COMPILING
+@next EXAMPLE2
+@toc INDEX
+@{h1}Example - Hello world
+
+Create a file called hello.znc and add the following content
+
+make dot "/dot/hello";
+puts("Hello World");
+
+Next, compile and assemble the code
+
+.znc hello.znc
+.asm hello.asm
+
+If you did not get any errors with the above, you can excute the program and you 
+should see Hello World printed to the screen.

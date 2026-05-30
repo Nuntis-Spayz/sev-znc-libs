@@ -1,0 +1,29 @@
+@----------------------------------------
+@node EXPRESSIONS
+@prev FUNCDEFS
+@next LETTERSDIGITS
+@toc INDEX
+@{h1}Expressions are parsed using a precedence-climbing algorithm
+
+The production below is schematic.
+
+<expr>       ::= "(" <expr> ")" 
+               | <factor> { <op> <factor> }
+
+<factor>     ::= <number>
+               | <string>
+               | <call_expr>
+               | ( "*" | "&" ) <var> [ "[" <expr> "]" ]
+
+<var>        ::= <ident>
+
+Operators available (similar to C, ++/-- can be prefix or postfix)
+
+<op>         ::= "+" | "-" | "*" | "/" | "%" 
+               | "==" | "!=" | "<" | ">" | "<=" | ">=" 
+               | "&&" | "||" | "^" | "|" | "&" | "<<" | ">>"
+               | "++" | "--"
+
+@{h2}Identifiers, letters, and digits
+
+<ident>      ::= <letter> { <letter> | <digit> | "_" }

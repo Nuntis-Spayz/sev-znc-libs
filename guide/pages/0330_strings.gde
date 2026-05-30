@@ -1,0 +1,7 @@
+@-------------------------------------------
+@node STRINGS
+@prev INCLUDE
+@next VARIABLES
+@{h1}String literal
+
+<string>  ::= "\"" { <character> } "\""

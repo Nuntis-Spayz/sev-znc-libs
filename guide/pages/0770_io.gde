@@ -1,0 +1,14 @@
+@----------------------------------------
+@node IO
+@prev INTTOMONTH
+@next JOYSTICK
+@toc INDEX
+@{h1}io.znc
+
+Functions
+  ink(byte c)
+  paper(byte c)
+  gotoxy(byte x, byte y)
+  printnum(int n)
+  char inkey()
+  char waitkey()

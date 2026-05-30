@@ -1,0 +1,10 @@
+@----------------------------------------
+@node MEMORY
+@prev JOYSTICK
+@next MOUSE
+@toc INDEX
+@{h1}memory.znc
+
+Functions
+  memcpy(void *dst, void *src, int len)
+  memset(void *dst, char b, int len)

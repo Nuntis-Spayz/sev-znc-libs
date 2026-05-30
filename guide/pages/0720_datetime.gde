@@ -1,0 +1,13 @@
+@----------------------------------------
+@node DATETIME
+@prev BiNARY
+@next DAYSINMONTH
+@toc INDEX
+@{h1}datetime.znc
+
+Constants
+  DT_YEAR, DT_MONTH, DT_DAY
+  DT_HOUR, DT_MINS, DT_SECS
+
+Functions
+  int getDateTime(array[6])

@@ -1,0 +1,16 @@
+@----------------------------------------
+@node BUILTINFNS
+@prev CONTROLSTRUCTS
+@next INLINEASM
+@toc INDEX
+@{h1}Built-in Functions
+
+<built-in-function>  ::= <putc> | <puts> | <readreg> | <regnext>
+
+<putc>     ::= "putc" "(" <expr> ")" ";"
+
+<puts>     ::= "puts" "(" <expr> ")" ";"
+
+<readreg>  ::= "readreg" "(" <expr> ")"
+
+<regnext>  ::= "regnext" "(" <expr> "," <expr> ")" ";"

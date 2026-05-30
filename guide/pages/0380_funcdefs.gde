@@ -1,0 +1,20 @@
+@----------------------------------------
+@node FUNCDEFS
+@prev DSTRUCTS
+@next VARIADICFNS
+@toc INDEX
+@{h1}Function Definition
+
+Includes return type, name, parameter list, either an assembly block,
+or a function body.
+
+<funcdecl>      ::= <rettype> <ident> "(" <arglist> ")"  <asm> | <stmnt_block>
+
+Function call used as an expression,
+when used as a statement, a semicolon is appended.
+
+<call_expr>     ::= [ <ident> | <built-in-function> ] "(" [ <exprlist> ] ")"
+
+<funccall_stmt> ::= <call_expr> ";"
+
+<rettype>       ::= "void" | <type>

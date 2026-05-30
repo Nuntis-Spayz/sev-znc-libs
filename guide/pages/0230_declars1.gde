@@ -1,0 +1,29 @@
+@----------------------------------------
+@node DECLARATIONS1
+@prev STATEMENTS
+@next CONTROLSTRUCTS
+@toc INDEX
+@{h1}Declarations
+
+Declarations: variable declarations, function definitions, and function
+prototypes
+
+<decl>       ::= <vardecl>
+               | <funcdecl>
+               | <funcproto>
+
+@{h2}Function prototype
+Note the trailing semicolon instead of a body
+
+<funcproto>  ::= <rettype> <ident> "(" <arglist> ")" ";"
+
+@{h2}Assignment Expressions
+Either a simple identifier or a more complex lvalue/expression on
+the left-hand side.
+
+<assignment> ::= <lvalue> "=" <expr> ";"
+
+<lvalue>     ::= <ident>
+               | <ident> "[" <expr> "]"
+               | "*" <lvalue>
+               | "&" <lvalue>

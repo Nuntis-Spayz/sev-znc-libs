@@ -1,0 +1,13 @@
+@----------------------------------------
+@node CONTENTS
+@prev MAIN
+@next BUILD
+@toc INDEX
+@{h1}Contents
+
+- @{"Installing" LINK INSTALLING}
+- @{"Compiling" LINK COMPILING}
+- @{"Examples" LINK EXAMPLE}
+
+- @{"The Language" LINK BUILD}
+- @{"Libraries" LINK LIBRARIES}

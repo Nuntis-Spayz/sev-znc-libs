@@ -1,0 +1,29 @@
+@----------------------------------------
+@node DECLARATIONS
+@prev BUILD
+@next INSTALLING
+@toc INDEX
+@{h1}Declarations.
+
+There are variable declarations, function definitions, and  function
+prototypes.
+
+Variable types include scalar types (char, byte, int), arrays (e.g. int[10]),
+and pointers (e.g. int*).
+
+@{h2}Control Structures.
+You'll find the usual control constructs: if-else, while, and for loops, as
+well as statements such as break, continue, and return.
+
+@{h2}Inline Assembly.
+A special asm block can be used to embed raw Z80N assembly 
+code inside functions.
+
+@{h2}I/O Primitives.
+For basic output, built-in functions putc() and puts() are 
+provided.
+
+Along with nextreg() and readreg().
+
+@{h2}Banks.
+A bank construct allows you to group a statement block into a memory bank

@@ -1,0 +1,10 @@
+@----------------------------------------
+@node INCLUDE
+@prev INLINEASM
+@next STRINGS
+@toc INDEX
+@{h1}INCLUDE
+
+<include>  ::= "include" <string>
+
+Note the supplied standard libraries are all stored as "\zdev\name.znc"

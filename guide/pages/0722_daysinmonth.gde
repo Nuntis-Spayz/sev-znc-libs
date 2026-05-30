@@ -1,0 +1,12 @@
+@----------------------------------------
+@node DAYSINMONTH
+@prev DATETIME
+@next FEXISTS
+@toc INDEX
+@{h1}daysinmonth.znc
+
+functions
+  int daysInMonth(int year, int month)
+
+provided by
+  https://github.com/Nuntis-Spayz/sev-znc-libs

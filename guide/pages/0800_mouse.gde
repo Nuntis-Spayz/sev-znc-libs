@@ -1,0 +1,12 @@
+@----------------------------------------
+@node MOUSE
+@prev MEMORY
+@next NEXTPARAM
+@toc INDEX
+@{h1}mouse.znc
+
+Functions
+  byte readMouseX()
+  byte readMouseY()
+  byte readMouseB()
+  byte readMouseW()

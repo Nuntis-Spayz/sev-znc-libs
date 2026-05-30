@@ -1,0 +1,10 @@
+@-------------------------------------------
+@node INTTOMONTH
+@prev FEXISTS
+@next JOYSTICK
+@toc INDEX
+@{h1}intToMonth.znc
+
+Functions
+  char* intToMonth(int month) - return full month name as a string
+  char* intToShMonth(int month) - return the first three lettres of the month
