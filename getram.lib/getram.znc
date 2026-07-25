@@ -34,12 +34,13 @@ int getRam()
     ; a = freeBanks = (byte at 23401)
     ld   a,(23401)
 
-    ; a = freeBanks + 17
-    add  a,17
-
-    ; A = a >> 6 (i.e., divide by 64), unsigned
-    ; 16k banks, 16 * 64 = 1024
+    ;/2 >> 1 so that the byte won't overflow on a ks3
     srl  a          ; >>1
+    ; a = freeBanks + 9 (17)
+    add  a,9
+
+    ; A = a >> 5 (6) (i.e., divide by 33 [64]), unsigned
+    ; 16k banks, 16 * 64 = 1024
     srl  a          ; >>2
     srl  a          ; >>3
     srl  a          ; >>4
