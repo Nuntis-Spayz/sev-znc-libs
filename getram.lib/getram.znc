@@ -1,6 +1,6 @@
 // getram.znc
 // ------------------------
-// v 0.0.2      25-Jul-2026
+// v 0.0.3      25-Jul-2026
 //    (C)Ian "nuntis" Jukes
 // ------------------------
 // The code and libraries within are distributed under the terms
@@ -15,46 +15,41 @@ const byte GETRAM__=1;
 int getFreeBanks() {
   __asm__
   {
-    ld hl,23401
-    ld l,(hl)
+    push af
+
+    ld a,(23401)
+    ld l,a
     ld h,0
+
+    pop af
   }
 }
 
-int getRam() {
+int getRam()
+{
   __asm__
   {
     push af
-    push de
 
-    ; HL = freeBanks = (byte at 23401), with H=0
-    ld   hl,23401
-    ld   l,(hl)
-    ld   h,0
+    ; a = freeBanks = (byte at 23401)
+    ld   a,(23401)
 
-    ; HL = freeBanks + 17
-    ld   de,17
-    add  hl,de
+    ; a = freeBanks + 17
+    add  a,17
 
-    ; quotient in A
-    xor  a
-
-div47:
-    ld   de,47
-    or   a          ; clear carry for SBC
-    sbc  hl,de      ; try HL -= 47
-    jr   c,done
-    inc  a
-    jr   div47
-
-done:
-    add  hl,de      ; restore remainder >= 0
+    ; A = a >> 6 (i.e., divide by 64), unsigned
+    ; 16k banks, 16 * 64 = 1024
+    srl  a          ; >>1
+    srl  a          ; >>2
+    srl  a          ; >>3
+    srl  a          ; >>4
+    srl  a          ; >>5
+    srl  a          ; >>6
 
     ; return quotient in HL
     ld   h,0
     ld   l,a
 
-    pop  de
     pop  af
   }
 }
