@@ -20,7 +20,7 @@ have cloned or unzipped this repository to your SD Card.
 - datetime.znc        - v0.0.3 (18-May-2026)
 - daysinmonth.znc     - v0.0.2 (18-May-2026)
 - fexists.znc         - v0.0.1 (29-Dec-2025)
-- getram.znc          - v0.0.1 (25-Jul-2026)
+- getram.znc          - v0.0.2 (25-Jul-2026)
 - inttomonth.znc      - v0.0.1 (14-Dec-2025)
 - joystick.znc        - v0.0.7 (18-May-2026)
 - mouse.znc           - v0.0.2 (29-Sep-2025)

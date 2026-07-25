@@ -3,6 +3,7 @@
 Written by nuntis/Spayz - spayz@realgamer.org
 https://github.com/Nuntis-Spayz/sev-znc-libs
 
+2026-Jul-25 - v0.0.2 - all Z80 asm optimised
 2026-Jul-25 - v0.0.1 - initial version
 
 Copyright 2026 Ian Jukes (aka Nuntis, Sevarian, Spayz)
