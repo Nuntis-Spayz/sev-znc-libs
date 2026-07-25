@@ -1,0 +1,27 @@
+// getram.znc
+// ------------------------
+// v 0.0.1      25-Jul-2026
+//    (C)Ian "nuntis" Jukes
+// ------------------------
+// The code and libraries within are distributed under the terms of the 
+// Lesser GNU General Public License.
+// Specific permission is granted to Chris Taylor (aka taylorza on itcho.io)
+// to use any of this code as he sees fit.
+// https://github.com/Nuntis-Spayz/sev-znc-libs
+
+#ifndef GETRAM__
+const byte GETRAM__=1;
+
+int getFreeBanks() {
+  __asm__ {  
+    ld a, (23401)
+    ld h, 0
+    ld l,a
+  }
+}
+
+int getRam() {
+  return (getFreeBanks()+17)/47;
+}
+
+#endif

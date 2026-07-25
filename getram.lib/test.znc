@@ -1,0 +1,17 @@
+// test getram
+// -----------------------
+// v 0.0.1    27-July-2026
+//         by nuntis/spayz
+// -----------------------
+make nex "test.nex";
+
+include "/zdev/io.znc";
+
+include "getram.znc";
+
+printnum(getRam());
+puts(" Mb");
+putc(13);
+
+printnum(getFreeBanks());
+puts(" x16K Banks");

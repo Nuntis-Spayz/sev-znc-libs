@@ -4,6 +4,8 @@
 *.asm
 *.nex
 *.bak
+*.zncs
+*.rtl
 ._*
 ._*.*
 -install.nex
